@@ -1,0 +1,300 @@
+@font-face {
+  font-family: Noto Sans ExtraBold;
+  src: url(/public/NotoSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Noto Sans;
+  src: url(/public/NotoSans-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#div1
+{
+  background: #82B284;
+  width: 2%;
+float: left;
+  height: 87%;
+  min-width: 45px;
+  min-height: 345px;
+  max-height: 990px;
+}
+
+#div1 img
+{
+
+}
+
+.Bottom-navigation
+{
+  position: sticky;
+  padding-top: 1090%;
+  max-height: 400px;
+}
+
+
+.menuitem1, .menuitem2, .menuitem3, .menuitem4, .menuitem5, .menuitem6 {
+  padding: 29%;
+  padding-top: 41%;
+  padding-bottom: 41%;
+}
+
+
+.menuitem7 {
+  padding-left: 15%;
+}
+
+
+.menuitem1:hover, .menuitem2:hover, .menuitem3:hover, .menuitem4:hover, .menuitem5:hover, .menuitem6:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #A4C7A5;
+}
+
+.menuitem7:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #EEEEEE;
+}
+
+#div2
+{
+  /* Side_bg */
+width: 13%;
+display: table;
+min-width: 130px;
+min-height: 90px;
+/* 5% black */
+
+background-color: #F7F7F7;
+}
+
+.authname
+{
+/* ЧЕСТНЫЙ АГЕНТ */
+
+
+
+font-family: 'Noto Sans ExtraBold';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+padding-top: 6%;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 0.03em;
+
+/* 75% Black */
+
+color: #3B3B3B;
+
+}
+
+.authrole
+{
+/* МЕНЕДЖЕР ПРОЦЕССА */
+
+
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 160%;
+/* or 19px */
+
+padding-left: 4%;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 0.03em;
+
+/* 75% Black */
+
+color: #3B3B3B;
+}
+
+.optionsection {
+  font-family: 'Noto Sans';
+
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+color: #82B284;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.optionlink {
+  text-decoration: none;
+  color: #82B284;
+}
+
+#div3 {
+
+  /* Side_bg */
+
+  width: 13%;
+  height: 87%;
+  display: table;
+  bottom: 15%;
+  min-width: 130px;
+  min-height: 766px;
+  max-height: 990px;
+  
+  /* 5% black */
+  
+  background: #F7F7F7;
+
+}
+
+#div4 {
+
+  /* Side_bg */
+  left: 15%;
+  position: absolute;
+  min-height: 855px;
+  top: 0;
+  width: 80%;
+  /* 5% black */
+  background: #F7F7F7;
+
+}
+
+#div5 { 
+    /* Side_bg */
+    left: 15%;
+    position: absolute;
+    min-height: 855px;
+    top: 0;
+    width: 80%;
+    /* 5% black */
+    background: #FFFFFF;
+    box-shadow: -10px 0 30px #000000;
+}
+
+.structurelist {
+  text-align: center;
+}
+
+.topnavigation {
+  font-family: 'Noto Sans ExtraBold';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+width: 22%;
+padding: 15px;
+/* identical to box height, or 125% */
+
+color: #82B284;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.topnavigationlink {
+  text-decoration: none;
+  padding: 10px;
+  color: #82B284;
+}
+.topnavigationlink:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #EEEEEE;
+}
+.uploadimagebutton {
+  /* Button_text */
+
+
+width: 320px;
+height: 20px;
+
+
+
+display: flex;
+align-items: center;
+border: 1px solid #CDCDCD;
+padding: 15px;
+text-transform: uppercase;
+border-radius: 2px;
+
+color: #82B284;
+background-color: #FFFFFF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 52;
+flex-grow: 1;
+}
+
+.uploadimagebuttontext {
+  /* Button_text */
+
+font-family: 'Noto Sans';
+font-style: normal;
+text-align: center;
+padding: 40px;
+font-weight: 600;
+font-size: 13px;
+line-height: 160%;
+/* or 22px */
+}
+.uploadimagebutton:hover {
+  color: #98C88C;
+}
+.uploadimagebutton:active {
+  color: #58A742;
+}
+
+.SiteInformation {
+  position: absolute;
+  left: 50%;
+  top: 92%;
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+flex: none;
+order: 6;
+flex-grow: 0;
+text-align: center;
+color: #B9B9B9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
